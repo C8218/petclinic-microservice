@@ -30,7 +30,7 @@ Resources:
   EC2Profile:
     Type: "AWS::IAM::InstanceProfile"
     Properties:
-      Roles: #required
+      Roles: #required.
         - !Ref RoleEnablingEC2forECR
   DockerMachinesSecurityGroup:
     Type: AWS::EC2::SecurityGroup
